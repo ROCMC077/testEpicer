@@ -13,7 +13,7 @@ import javax.persistence.Table;
 import org.springframework.stereotype.Component;
 
 @Entity
-@Table(name = "article_reply")
+@Table(name = "forum_article_reply")
 @Component
 public class ArticleReplyBean {
 

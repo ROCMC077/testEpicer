@@ -86,7 +86,7 @@
             
            <%
 		List<ArticleBean> article1 =(List<ArticleBean>) session.getAttribute("selectAll");
-		session.setAttribute("userId", 10);
+          
 		int i = 1;		
 
  	for (ArticleBean article : article1) {

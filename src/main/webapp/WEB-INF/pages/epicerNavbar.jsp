@@ -47,7 +47,7 @@
                         <a class="nav-link" href="http://localhost:8080/Hibernate_Web/NewSearch.jsp">找食譜</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:8080/Epicer/productlist">逛食品</a>
+                        <a class="nav-link" href="productlist">逛食品</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">找外燴</a>
@@ -56,7 +56,7 @@
                         <a class="nav-link" href="http://localhost:8080/Hibernate_Web/coursePage.jsp">找課程</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:8080/Epicer/QueryAll">論壇</a>
+                        <a class="nav-link" href="QueryAll">論壇</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">購物車</a>
