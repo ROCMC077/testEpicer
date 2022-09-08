@@ -62,7 +62,9 @@
                         <a class="nav-link" href="#">購物車</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:8080/Hibernate_Web/Login.jsp">會員登入</a>
+                       <form name='form1' action='checkloginstatus' method='post'>
+                        <a class="nav-link" href="javascript:document.form1.submit();">會員登入</a>
+                          </form>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">我的訂單</a>
