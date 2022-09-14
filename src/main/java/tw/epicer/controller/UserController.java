@@ -41,7 +41,7 @@ public class UserController {
 	@Autowired
 	private ManagementService management;
 	
-	private static final String localpath = "C:\\Users\\smile\\Desktop\\第二組Epicer\\Epicer\\src\\main\\webapp\\WEB-INF\\resources\\images";
+	private static final String localpath = "C:/Users/User/Desktop/第二組專題/Epicer/src/main/webapp/WEB-INF/resources/images/";
 	private Tools tools=new Tools();
 	
 //測試用

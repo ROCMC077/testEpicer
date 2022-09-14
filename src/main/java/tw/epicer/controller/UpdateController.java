@@ -44,7 +44,8 @@ public class UpdateController {
 			@RequestParam("ingredient") String[] ingredients, @RequestParam("amount") String[]amounts
 			,@RequestParam("step") String[] steps, Model model) throws IllegalStateException, IOException {
 		String filenameString = mf.getOriginalFilename();
-		String saveFileDir = "D:/projectws/ProjectForSpring/src/main/webapp/WEB-INF/resources/images";
+		
+		String saveFileDir = "C:/Users/User/Desktop/第二組專題/Epicer/src/main/webapp/WEB-INF/resources/images/";
 		String fileLocalPathString = "images/"+filenameString;
 		File filePath = new File(saveFileDir, filenameString);
 		mf.transferTo(filePath);
@@ -69,7 +70,7 @@ public class UpdateController {
 		recipeBean.setSteps(stepSet);
 		recipeService.addRecipe(recipeBean, ingredientsSet, stepSet);
 		
-		return "redirect:/recipe";
+		return "redirect:/queryall.controller";
 	}
 
 }

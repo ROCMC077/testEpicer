@@ -104,8 +104,6 @@ response.setDateHeader("Expires", -1); // Prevents caching at the proxy server
 </head>
 
 <body>
-	<jsp:useBean id="spec_product" class="tw.epicer.model.ProductBean"
-		scope="session" />
 <%@include file="epicerNavbar.jsp"%>
     <br>
 	<br>

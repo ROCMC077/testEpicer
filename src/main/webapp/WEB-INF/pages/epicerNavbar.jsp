@@ -43,15 +43,18 @@
                 </a>
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 	 <li class="nav-item">
+                        <a class="nav-link" href="productlistcart">搜全部</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="queryall.controller">找食譜</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="productlist">逛食品</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">找外燴</a>
-                    </li>
+<!--                     <li class="nav-item"> -->
+<!--                         <a class="nav-link" href="#">找外燴</a> -->
+<!--                     </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="666">找課程</a>
                     </li>
@@ -59,16 +62,16 @@
                         <a class="nav-link" href="QueryAll">論壇</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">購物車</a>
+                        <a class="nav-link" href="gotocart.controller">購物車</a>
                     </li>
                     <li class="nav-item">
                        <form name='form1' action='checkloginstatus' method='post'>
                         <a class="nav-link" href="javascript:document.form1.submit();">會員登入</a>
                           </form>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">我的訂單</a>
-                    </li>
+<!--                     <li class="nav-item"> -->
+<!--                         <a class="nav-link" href="#">我的訂單</a> -->
+<!--                     </li> -->
                 </ul>
                 <!-- Left links -->
             </div>

@@ -85,7 +85,7 @@ public class WebAppConfig implements WebMvcConfigurer {
 		registry.addRedirectViewController("/",	"redirect:/queryall.controller" );
 		registry.addViewController("/form").setViewName("Register");
 		registry.addViewController("/index").setViewName("index");
-		registry.addViewController("/to/add").setViewName(	"AddPage" );
+//		registry.addViewController("/to/add").setViewName(	"AddPage" );
 	}
 	
 	@Bean

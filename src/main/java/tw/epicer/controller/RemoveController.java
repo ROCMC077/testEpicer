@@ -22,7 +22,7 @@ public class RemoveController {
 	public String remove(@RequestParam("id") Integer id,Model model) {
 		
 		recipeService.deleteRecipe(id);
-		return "redirect:/recipe";
+		return "redirect:/queryall.controller";
 	}
 	
 	
