@@ -82,8 +82,10 @@ public class WebAppConfig implements WebMvcConfigurer {
 //		}
 	@Override //請求路徑及導向的路徑
 	public void addViewControllers(ViewControllerRegistry registry) {
+		registry.addRedirectViewController("/",	"redirect:/queryall.controller" );
 		registry.addViewController("/form").setViewName("Register");
 		registry.addViewController("/index").setViewName("index");
+		registry.addViewController("/to/add").setViewName(	"AddPage" );
 	}
 	
 	@Bean

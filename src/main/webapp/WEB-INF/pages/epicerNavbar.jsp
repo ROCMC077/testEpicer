@@ -44,7 +44,7 @@
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:8080/Hibernate_Web/NewSearch.jsp">找食譜</a>
+                        <a class="nav-link" href="queryall.controller">找食譜</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="productlist">逛食品</a>
@@ -53,7 +53,7 @@
                         <a class="nav-link" href="#">找外燴</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:8080/Hibernate_Web/coursePage.jsp">找課程</a>
+                        <a class="nav-link" href="666">找課程</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="QueryAll">論壇</a>

@@ -43,7 +43,7 @@
 </form>
 <div class="loginsignup">
     <span class="text">Not A Member</span>
-    <a href="form" class="text signuptext">Sign Up Now</a>
+    <a href="form"  style="color:blue;" class="text signuptext">Sign Up Now</a>
 </div>
 </div>
 </div>
